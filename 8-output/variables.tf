@@ -6,7 +6,7 @@ variable filename {
 
 variable prefix {
   type        = string
-  default     = "Hola! ...."
+  default     = "Hola! ..."
   description = "description"
 }
 

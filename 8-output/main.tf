@@ -21,7 +21,7 @@ resource random_pet my-pet {
 output pet-name {
   value       = random_pet.my-pet.id
   sensitive   = false
-  description = "description"
+  description = "Id generado por el recurso random_pet"
   depends_on  = []
 }
 
